@@ -1,3 +1,10 @@
 body {
-    display: flex;
+    
+}
+
+.headertext {
+    font-size: 24px;
+    color: #F9FAF8;
+    background: #1F2937;
+    border: 1px solid black;
 }
