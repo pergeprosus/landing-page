@@ -1,5 +1,7 @@
 body {
-    
+ display: flex;
+ margin: 0;
+ padding: 0;
 }
 
 .headertext {
@@ -7,4 +9,9 @@ body {
     color: #F9FAF8;
     background: #1F2937;
     border: 1px solid black;
+}
+
+
+.header {
+    display: flex;
 }
