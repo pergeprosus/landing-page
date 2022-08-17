@@ -2,16 +2,26 @@ body {
  display: flex;
  margin: 0;
  padding: 0;
+ flex-direction: column;
 }
 
 .headertext {
     font-size: 24px;
     color: #F9FAF8;
-    background: #1F2937;
     border: 1px solid black;
 }
 
 
 .header {
     display: flex;
+}
+
+.topbluepart {
+    background: #1F2937;
+    display: flex;
+    flex: 1;
+}
+
+.whitepartwithtext {
+    background: blue;
 }
