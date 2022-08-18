@@ -9,20 +9,16 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     border: 1px solid pink;
+    margin-bottom: 100px;
 }
 
-
-.header {
-   
-}
 
 .topbluepart {
     background: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 550px;
     align-items: center;
-    justify-content: space-around;
 }
 
 .whitepartwithtext {
