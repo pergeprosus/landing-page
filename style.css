@@ -54,10 +54,10 @@ body {
 .infoheaderpics {
    
     justify-content: center;
-    align-items: center;
     display: flex;
     margin-top: 50px;
     margin-bottom: 20px;
+    gap: 52px;
 }
 
 .signupbox {
@@ -159,11 +159,14 @@ a {
     border: 1px solid black;
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 1000px;
 }
 
 .team {
-    max-width: 100%;
-    background: white;
-    align-self: center;
-    margin-top: 500px;
+    height: 50px;
+    width: 50px;
+}
+
+.member {
+    border: 1px solid black;
 }
