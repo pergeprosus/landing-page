@@ -66,6 +66,7 @@ body {
 
 .boxinsidebluepart {
     border: 1px solid pink;
+    background: green;
 }
 
 .bottomgroupbox {
