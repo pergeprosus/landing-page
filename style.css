@@ -32,7 +32,7 @@ body {
 .topbluepart {
     background: #1F2937;
     display: flex;
-    flex: 1;
+    height: 200px;
 }
 
 .whitepartwithtext {
@@ -40,7 +40,7 @@ body {
 }
 
 .quotebox {
-    background: green;
+    background: #E5E7EB;
 }
 
 .infoheaderpics {
