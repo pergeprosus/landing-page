@@ -93,6 +93,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 100%;
+    gap: 50px;
 }
 
 .leftsideboxwithbutton,
@@ -130,3 +131,7 @@ a {
     color: #F9FAF8;
 }
 
+.leftboxdesc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
