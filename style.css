@@ -3,8 +3,6 @@ body {
  margin: 0;
  flex-direction:column;
  min-height: 100vh;
- flex: 1;
- align-items: stretch;
 }
 
 
@@ -27,7 +25,7 @@ body {
 
 
 .header {
-    
+   
 }
 
 .topbluepart {
@@ -35,14 +33,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 72px;
 }
 
 .whitepartwithtext {
     background: blue;
+    flex: 1;
 }
 
 .quotebox {
     background: #E5E7EB;
+    display: flex;
+    flex: 1;
 }
 
 .infoheaderpics {
@@ -51,10 +53,13 @@ body {
 
 .signupbox {
     background: pink;
+    display: flex;
+    flex: 1;
 }
 
 .footer {
     background: darkorange;
+    height: 72px;
 }
 
 .boxinsidebluepart {
@@ -66,5 +71,9 @@ body {
 }
 
 .all {
-    border: 1px solid pink;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex: 1;
 }
