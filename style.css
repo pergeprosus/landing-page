@@ -5,18 +5,6 @@ body {
  min-height: 100vh;
 }
 
-
-
-.topbluepart, .whitepartwithtext, .quotebox, .signupbox
-{
-    
-}
-
-
-
-
-
-
 .headertext {
     font-size: 24px;
     color: #F9FAF8;
@@ -33,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 72px;
+    height: 650px;
 }
 
 .whitepartwithtext {
@@ -41,22 +29,23 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    height: 250px;
 }
 
 .infoheader {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 
 .quotebox {
     background: #E5E7EB;
     display: flex;
-    flex: 1;
+    
+    height: 150px;
 }
 
 .infoheaderpics {
-    background: lightblue;
+    border: 3px solid blue;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -67,12 +56,12 @@ body {
 .signupbox {
     background: pink;
     display: flex;
-    flex: 1;
+    height: 200px;
 }
 
 .footer {
     background: #1F2937;
-    height: 72px;
+    height: 50px;
     color: white;
 }
 
