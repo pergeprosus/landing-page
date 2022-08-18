@@ -37,9 +37,17 @@ body {
 }
 
 .whitepartwithtext {
-    background: blue;
     flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
+
+.infoheader {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 
 .quotebox {
     background: #E5E7EB;
@@ -49,6 +57,11 @@ body {
 
 .infoheaderpics {
     background: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .signupbox {
@@ -58,8 +71,9 @@ body {
 }
 
 .footer {
-    background: darkorange;
+    background: #1F2937;
     height: 72px;
+    color: white;
 }
 
 .boxinsidebluepart {
