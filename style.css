@@ -70,10 +70,10 @@ body {
 
 .boxinsidebluepart {
     border: 1px solid pink;
-    background: green;
-    width: 950px;
+    width: 1200px;
     display: flex;
     flex-direction: column;
+    height: 500px;
 }
 
 .bottomgroupbox {
@@ -92,13 +92,15 @@ body {
    justify-content:flex-start;
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .leftsideboxwithbutton,
 .rightsideimage {
-    width: 100px;
-    height: 100px;
+
+    height: 100%;
     border: 3px solid white;
+    flex: 1;
 }
 
 .headerlinks {
