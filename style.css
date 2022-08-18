@@ -21,12 +21,12 @@ body {
 .headertext {
     font-size: 24px;
     color: #F9FAF8;
-    border: 1px solid black;
+    border: 1px solid pink;
 }
 
 
 .header {
-    display: flex;
+    
 }
 
 .topbluepart {
