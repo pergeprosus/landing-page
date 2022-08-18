@@ -28,11 +28,11 @@ body {
 }
 
 .whitepartwithtext {
-    flex: 1;
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 500px;
+    justify-content: flex-start;
 }
 
 .infoheader {
@@ -40,7 +40,7 @@ body {
     font-size: 26px;
     font-weight: bolder;
     color: #1F2937;
-    
+    margin-bottom: 10px;
 }
 
 
@@ -157,8 +157,6 @@ a {
 
 .whitepartbox {
     border: 1px solid black;
-    margin-top: 40px;
-    margin-bottom: 40px;
     width: 1000px;
 }
 
