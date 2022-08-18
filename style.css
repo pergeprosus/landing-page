@@ -2,8 +2,21 @@ body {
  display: flex;
  margin: 0;
  padding: 0;
- flex-direction: column;
+ flex-direction:column;
+ justify-content: space-between;
 }
+
+
+
+.topbluepart, .whitepartwithtext, .quotebox, .signupbox
+{
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 .headertext {
     font-size: 24px;
