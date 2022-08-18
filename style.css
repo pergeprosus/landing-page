@@ -37,7 +37,7 @@ body {
 
 .infoheader {
     text-align: center;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bolder;
     color: #1F2937;
     
@@ -56,8 +56,8 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .signupbox {
@@ -157,5 +157,7 @@ img {
 
 .whitepartbox {
     border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
