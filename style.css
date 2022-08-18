@@ -45,9 +45,9 @@ body {
 .quotebox {
     background: #E5E7EB;
     display: flex;
-    align-content: center;
+
     justify-content: center;
-    height: 576px;
+  
 }
 
 .infoheaderpics {
@@ -184,7 +184,7 @@ a {
 }
 
 .quote {
-    font-size: 46px;
+    font-size: 36px;
     font-style: italic;
     color: #1F2937;
     
@@ -194,6 +194,13 @@ a {
 .thequote {
     align-items: center;
     justify-content: center;
-   display: flex;
   max-width: 1253px;
+  flex-direction: column;
+}
+
+.theguy {
+    font-size: 26px;
+    font-weight:bolder;
+    color: #1F2937;
+    text-align: right;
 }
