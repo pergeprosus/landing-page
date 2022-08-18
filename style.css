@@ -57,6 +57,7 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
     gap: 52px;
+    flex-direction: row;
 }
 
 .signupbox {
@@ -154,7 +155,7 @@ a {
 
 .whitepartbox {
     border: 1px solid black;
-    width: 1000px;
+    width: 1200px;
 }
 
 .team {
@@ -165,11 +166,12 @@ a {
 }
 
 .member {
-    border: 1px solid black;
+   
     justify-content: center;
     flex-wrap: wrap;
     flex-direction:column;
     align-content: center;
     text-align: center;
+    max-width: 200px;
 }
 
