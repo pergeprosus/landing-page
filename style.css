@@ -139,7 +139,7 @@ a {
     color: #E5E7EB;
 }
 
-img {
+.image {
    max-width: 100%;
    background: white;
    align-self: center;
@@ -161,3 +161,9 @@ img {
     margin-bottom: 40px;
 }
 
+.team {
+    max-width: 100%;
+    background: white;
+    align-self: center;
+    margin-top: 500px;
+}
