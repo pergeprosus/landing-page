@@ -10,7 +10,7 @@ body {
 
 .topbluepart, .whitepartwithtext, .quotebox, .signupbox
 {
-    margin-bottom: 10px;
+    
 }
 
 
@@ -59,4 +59,8 @@ body {
 
 .boxinsidebluepart {
     border: 1px solid pink;
+}
+
+.bottomgroupbox {
+    border: 3px solid brown;
 }
