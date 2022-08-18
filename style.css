@@ -142,3 +142,8 @@ img {
    background: white;
    align-self: center;
 }
+
+.signupbutton {
+    background: #3882F6;
+    color: #F9FAF8;
+}
