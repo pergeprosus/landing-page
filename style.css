@@ -138,4 +138,8 @@ a {
 
 img {
    max-width: 100%;
+   border-radius: 35px;
+   padding: 5px;
+   border: 1px solid #F9FAF8;
+   background: white;
 }
