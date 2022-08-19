@@ -61,9 +61,11 @@ body {
 }
 
 .signupbox {
-    background: pink;
+    background: white;
     display: flex;
     height: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -207,4 +209,8 @@ a {
 
 .infoheadertext {
     border-bottom: 2px solid lightgrey;
+}
+
+.calltoaction {
+    background: pink;
 }
