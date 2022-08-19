@@ -3,7 +3,7 @@ body {
     margin: 0;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Futura", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .headertext {
@@ -35,7 +35,7 @@ body {
 
 .infoheader {
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bolder;
     color: #1F2937;
     margin-bottom: 10px;
@@ -186,11 +186,11 @@ a {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1F2937;
     
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .thequote {
@@ -198,6 +198,7 @@ a {
     justify-content: center;
   max-width: 1253px;
   flex-direction: column;
+  margin: 40px;
 }
 
 .theguy {
@@ -216,8 +217,8 @@ a {
     display: flex;
     flex-direction: row;
     width: 1100px;
-    height: 130px;
-    border-radius: 25px;
+    height: 100px;
+    border-radius: 10px;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
