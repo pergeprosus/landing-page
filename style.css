@@ -72,6 +72,9 @@ body {
     background: #1F2937;
     height: 50px;
     color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .boxinsidebluepart {
